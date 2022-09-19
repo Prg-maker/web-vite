@@ -38,7 +38,7 @@ function App() {
         </div>
       </header>
 
-      <div className="w-full h-[274px]" />
+      <div className="w-full h-[250px]" />
 
       <div className="w-full h-[274px] grid grid-rows-1 grid-flow-col justify-center gap-x-40">
 
