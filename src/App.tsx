@@ -42,12 +42,10 @@ function App() {
 
       <div className="w-full h-[274px] grid grid-rows-1 grid-flow-col justify-center gap-x-40">
 
-        <CardDownload/>
-        <CardDownload/>
-
+        <CardDownload key="linux" urlDownload="https://drive.google.com/u/0/uc?id=1uKW8b88RajwUtNqPAEYbK8dg4W_Orkjd&export=download"/>
+        <CardDownload  key="win" urlDownload="2"/>
 
       </div>
-
 
     </div>
   );
