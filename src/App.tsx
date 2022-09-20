@@ -1,9 +1,13 @@
+import { CardAdSense } from "./components/CardAdSense";
 import { CardDownload } from "./components/CardDownload";
 
 function App() {
   return (
     <div className="max-full h-screen bg-white ">
       <header className="w-full h-1/3 bg-backgroundColorApp flex flex-col  justify-center items-center relative">
+
+        <CardAdSense/>
+
         <h1 className="font-sans font-semibold  text-4xl text-white">
           Desenhe Onde Você Quiser
         </h1>
