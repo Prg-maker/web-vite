@@ -52,14 +52,6 @@ function App() {
 
       </div>
 
-      <div className="bg-zinc-900 w-32 h-1/2 absolute top-1/2 ">
-    
-      </div>
-
-      
-      <div className="bg-zinc-900 w-32 h-1/2 absolute top-1/2 right-0">
-    
-      </div>
 
     </div>
   );
