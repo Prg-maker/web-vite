@@ -14,7 +14,7 @@ export function CardDownload(props:CardDownloadProps){
       <a href={props.urlDownload}>
         <DownloadSimple weight='bold' className='cursor-pointer' size={46}/>
       </a>
-      <span className='font-normal text-sm mt-7'>Repositório: <a href="" className='underline'>Vigilant Garbanzo</a>.</span>
+      <span className='font-normal text-sm mt-7'>Repositório: <a href="https://github.com/Prg-maker/vigilant-garbanzo-web-vite" className='underline'>Vigilant Garbanzo</a>.</span>
 
       
     </div>
