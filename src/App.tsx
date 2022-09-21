@@ -3,10 +3,11 @@ import { CardDownload } from "./components/CardDownload";
 
 function App() {
   return (
-    <div className="max-full h-screen bg-white ">
+    <div className="max-full h-screen bg-white relative">
       <header className="w-full h-1/3 bg-backgroundColorApp flex flex-col  justify-center items-center relative">
 
-        <CardAdSense/>
+
+
 
         <h1 className="font-sans font-semibold  text-4xl text-white">
           Desenhe Onde Você Quiser
@@ -46,9 +47,18 @@ function App() {
 
       <div className="w-full h-[274px] grid grid-rows-1 grid-flow-col justify-center gap-x-40">
 
-        <CardDownload key="linux" urlDownload="https://drive.google.com/u/0/uc?id=1uKW8b88RajwUtNqPAEYbK8dg4W_Orkjd&export=download"/>
-        <CardDownload  key="win" urlDownload="2"/>
+        <CardDownload key="linux" versionTitle="Linux" urlDownload="https://drive.google.com/u/0/uc?id=1uKW8b88RajwUtNqPAEYbK8dg4W_Orkjd&export=download"/>
+        <CardDownload  key="win" versionTitle="Windows" urlDownload="https://drive.google.com/u/0/uc?id=1jWrR0VwoKOHRhmli5Fu1MALsGMQpgJ5b&export=download"/>
 
+      </div>
+
+      <div className="bg-zinc-900 w-32 h-1/2 absolute top-1/2 ">
+    
+      </div>
+
+      
+      <div className="bg-zinc-900 w-32 h-1/2 absolute top-1/2 right-0">
+    
       </div>
 
     </div>

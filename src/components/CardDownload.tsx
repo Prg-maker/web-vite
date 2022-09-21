@@ -1,6 +1,7 @@
 import {DownloadSimple} from 'phosphor-react'
 
 interface CardDownloadProps{
+  versionTitle:string;
   urlDownload: string;
 }
 //
@@ -8,7 +9,7 @@ interface CardDownloadProps{
 export function CardDownload(props:CardDownloadProps){
   return(
     <div className="w-[276px] h-[248px] bg-white shadow-cardShadow flex flex-col items-center gap-[33px]">
-      <p className='mt-5 font-sans font-medium'>Versão Linux</p>
+      <p className='mt-5 font-sans font-medium'>Versão {props.versionTitle}</p>
 
       <a href={props.urlDownload}>
         <DownloadSimple weight='bold' className='cursor-pointer' size={46}/>
