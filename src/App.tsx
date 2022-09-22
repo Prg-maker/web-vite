@@ -5,10 +5,6 @@ function App() {
   return (
     <div className="max-full h-screen bg-white relative">
       <header className="w-full h-1/3 bg-backgroundColorApp flex flex-col  justify-center items-center relative">
-
-
-
-
         <h1 className="font-sans font-semibold  text-4xl text-white">
           Desenhe Onde Você Quiser
         </h1>
@@ -27,17 +23,24 @@ function App() {
           items-center
           "
         >
-          <h2 className="text-4xl font-sans  font-medium mt-5">
+           <h2 className="text-4xl font-sans  font-medium mt-5">
             Vigilant Garbanzo
           </h2>
 
-          <div className="mt-5  flex flex-col gap-5">
+          <div className="mt-8  flex flex-col gap-5 ">
+        
             <p className="font-sans font-normal  text-xl">Versão atual: 1.0</p>
             <p className="font-sans font-normal  text-xl">
               Author: Daniel F. Silva
             </p>
             <p className="font-sans font-normal  text-xl">
-              github: <a className="underline font-medium " href="https://github.com/Prg-maker">Prg-Maker</a>
+              github:{" "}
+              <a
+                className="underline font-medium "
+                href="https://github.com/Prg-maker"
+              >
+                Prg-Maker
+              </a>
             </p>
           </div>
         </div>
@@ -46,13 +49,17 @@ function App() {
       <div className="w-full h-[250px]" />
 
       <div className="w-full h-[274px] grid grid-rows-1 grid-flow-col justify-center gap-x-40">
-
-        <CardDownload key="linux" versionTitle="Linux" urlDownload="https://drive.google.com/u/0/uc?id=1uKW8b88RajwUtNqPAEYbK8dg4W_Orkjd&export=download"/>
-        <CardDownload  key="win" versionTitle="Windows" urlDownload="https://drive.google.com/u/0/uc?id=1jWrR0VwoKOHRhmli5Fu1MALsGMQpgJ5b&export=download"/>
-
+        <CardDownload
+          key="linux"
+          versionTitle="Linux"
+          urlDownload="https://drive.google.com/u/0/uc?id=1uKW8b88RajwUtNqPAEYbK8dg4W_Orkjd&export=download"
+        />
+        <CardDownload
+          key="win"
+          versionTitle="Windows"
+          urlDownload="https://drive.google.com/u/0/uc?id=1jWrR0VwoKOHRhmli5Fu1MALsGMQpgJ5b&export=download"
+        />
       </div>
-
-
     </div>
   );
 }
