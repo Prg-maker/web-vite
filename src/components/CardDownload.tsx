@@ -8,7 +8,7 @@ interface CardDownloadProps{
 
 export function CardDownload(props:CardDownloadProps){
   return(
-    <div className="w-[276px] h-[248px] bg-zinc rounded shadow-cardShadow flex flex-col items-center gap-[33px]">
+    <div className="md:w-[276px]  w-[233px] h-[248px] bg-zinc rounded shadow-cardShadow flex flex-col items-center gap-[33px]">
       <p className='mt-5 font-sans font-medium'>Versão {props.versionTitle}</p>
 
       <a href={props.urlDownload}>

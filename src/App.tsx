@@ -5,13 +5,14 @@ function App() {
   return (
     <div className="max-full h-screen bg-white relative">
       <header className="w-full h-1/3 bg-backgroundColorApp flex flex-col  justify-center items-center relative">
-        <h1 className="font-sans font-semibold  text-4xl text-white">
+        <h1 className="font-sans font-semibold  md:text-4xl text-2xl text-white">
           Desenhe Onde Você Quiser
         </h1>
 
         <div
           className="
-          w-[600px] 
+          md:w-[600px]
+          w-[500px]
           h-[278px]  
           bg-zinc-50 
           rounded-lg absolute 
@@ -23,17 +24,17 @@ function App() {
           items-center
           "
         >
-           <h2 className="text-4xl font-sans  font-medium mt-5">
+           <h2 className="md:text-4xl text-3xl  font-sans  font-medium mt-5">
             Vigilant Garbanzo
           </h2>
 
           <div className="mt-8  flex flex-col gap-5 ">
         
-            <p className="font-sans font-normal  text-xl">Versão atual: 1.0</p>
-            <p className="font-sans font-normal  text-xl">
+            <p className="font-sans font-normal  md:text-xl text-lg">Versão atual: 1.0</p>
+            <p className="font-sans font-normal md:text-xl text-lg">
               Author: Daniel F. Silva
             </p>
-            <p className="font-sans font-normal  text-xl">
+            <p className="font-sans font-normal  md:text-xl text-lg">
               github:{" "}
               <a
                 className="underline font-medium "
@@ -48,7 +49,7 @@ function App() {
 
       <div className="w-full h-[250px]" />
 
-      <div className="w-full h-[274px] grid grid-rows-1 grid-flow-col justify-center gap-x-40">
+      <div className="w-full h-[274px] md:grid md:grid-rows-1 md:grid-flow-col justify-center md:gap-x-40  sm:gap-6 flex  ">
         <CardDownload
           key="linux"
           versionTitle="Linux"
