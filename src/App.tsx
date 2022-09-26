@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="max-full h-screen bg-white relative">
       <header className="w-full h-1/3 bg-backgroundColorApp flex flex-col  justify-center items-center relative">
-        <h1 className="font-sans font-semibold  md:text-4xl text-2xl text-white">
+        <h1 className="font-sans font-semibold  md:text-4xl sm:text-2xl text-xl text-white">
           Desenhe Onde Você Quiser
         </h1>
 
@@ -49,8 +49,12 @@ function App() {
 
       <div className="w-full h-[250px]" />
 
-      <div className="w-full h-[274px] md:grid md:grid-rows-1 md:grid-flow-col justify-center md:gap-x-40  sm:gap-6 flex  ">
+      <div 
+        className="w-full h-[274px] flex justify-center flex-col items-center mt-20  sm:grid sm:grid-rows-1 sm:grid-flow-col  md:gap-x-40  gap-6 "
+      >
+       
         <CardDownload
+
           key="linux"
           versionTitle="Linux"
           urlDownload="https://drive.google.com/u/0/uc?id=1uKW8b88RajwUtNqPAEYbK8dg4W_Orkjd&export=download"
@@ -61,6 +65,9 @@ function App() {
           urlDownload="https://drive.google.com/u/0/uc?id=1jWrR0VwoKOHRhmli5Fu1MALsGMQpgJ5b&export=download"
         />
       </div>
+
+      <div className="h-32"/>
+
     </div>
   );
 }
