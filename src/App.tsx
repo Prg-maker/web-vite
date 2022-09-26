@@ -11,8 +11,8 @@ function App() {
 
         <div
           className="
-          md:w-[600px]
-          w-[500px]
+          sm:w-[600px]
+          w-[300px]
           h-[278px]  
           bg-zinc-50 
           rounded-lg absolute 
@@ -35,7 +35,7 @@ function App() {
               Author: Daniel F. Silva
             </p>
             <p className="font-sans font-normal  md:text-xl text-lg">
-              github:{" "}
+              github:
               <a
                 className="underline font-medium "
                 href="https://github.com/Prg-maker"
