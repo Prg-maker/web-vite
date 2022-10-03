@@ -1,7 +1,7 @@
 # vigilant-garbanzo-web-vite
 
 
-download: https://github.com/Prg-maker/vigilant-garbanzo-web-vite
+download: https://vigilant-garbanzo-web-vite-kr3j.vercel.app/
 
 
 <h2>Versão linux</h2>
